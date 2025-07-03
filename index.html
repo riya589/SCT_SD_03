@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Automatic Sudoku Solver</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body class="light">
+  <!-- Navigation Bar -->
+  <nav class="nav-bar">
+    <div class="nav-links">
+      <button id="home-btn" class="nav-btn active" title="Go to Home">🏠 Home</button>
+      <button id="about-creator-btn" class="nav-btn" title="Learn about the creator">👨‍💻 About Creator</button>
+      <button id="about-sudoku-btn" class="nav-btn" title="Learn about Sudoku">🧩 About Sudoku</button>
+    </div>
+    <button id="theme-toggle" class="theme-btn" title="Toggle light/dark mode">🌙</button>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container">
+    <!-- Home Page -->
+    <section id="home-page" class="page">
+      <h1 class="page-title">🧩 Automatic Sudoku Solver</h1>
+      <p class="page-description">Solve any Sudoku puzzle instantly. Click below to begin.</p>
+      <div style="display: flex; justify-content: center; align-items: center; margin-top: 30px;">
+        <button id="create-btn" class="action-btn create-btn">✨ Start Puzzle</button>
+      </div>
+    </section>
+
+    <!-- About Creator Page -->
+<section id="about-creator-page" class="page hidden">
+  <h1 class="page-title">👨‍💻 About the Creator</h1>
+  <p class="page-content">
+    Created by <strong>Riya Roy</strong> — 💡<br>
+    Contact me on <a href="https://github.com/riya589" target="_blank">GitHub</a>
+  </p>
+</section>
+
+ <!-- About Sudoku Page -->
+<section id="about-sudoku-page" class="page hidden">
+  <h1 class="page-title">🧩 What is Sudoku?</h1>
+  <div class="page-content">
+    <p>
+      Sudoku is a logic-based number puzzle played on a <strong>9×9 grid</strong>, divided into nine <strong>3×3 subgrids</strong>
+      (also called blocks or boxes). The objective is simple: fill each cell with a number from <strong>1 to 9</strong> so that:
+    </p>
+    <ul class="rules-list">
+      <li>Each row contains all digits from 1 to 9 without repetition.</li>
+      <li>Each column contains all digits from 1 to 9 without repetition.</li>
+      <li>Each 3×3 block contains all digits from 1 to 9 without repetition.</li>
+    </ul>
+    <p>
+      Sudoku puzzles typically start with a partially filled grid. Your task is to logically deduce the correct number for each empty cell, using the rules above.
+    </p>
+    <p>
+      This <strong>Automatic Sudoku Solver</strong> helps you solve any valid Sudoku puzzle instantly using a <em>backtracking algorithm</em>.
+      Just enter your puzzle and let it do the thinking! 🧠✨
+    </p>
+  </div>
+</section>
+
+
+    <!-- Grid Page -->
+    <section id="grid-page" class="page hidden">
+      <h1 class="page-title">✏️ Enter Your Puzzle</h1>
+      <div class="grid-container">
+        <div class="grid-box">
+          <h2 class="grid-title">Input Grid</h2>
+          <table class="sudoku-grid">
+            <tbody id="input-grid"></tbody>
+          </table>
+        </div>
+        <div id="solution-grid-container" class="grid-box">
+          <h2 class="grid-title">Solution Grid</h2>
+          <table class="sudoku-grid">
+            <tbody id="solution-grid"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="button-group">
+        <button id="solve-btn" class="action-btn solve-btn">✅ Solve</button>
+        <button id="clear-btn" class="action-btn clear-btn">🗑️ Clear</button>
+        <button id="save-btn" class="action-btn save-btn">💾 Save</button>
+        <button id="back-btn" class="action-btn back-btn">⬅️ Back</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Made with 💙 by Riya</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
