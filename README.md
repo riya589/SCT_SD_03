@@ -40,12 +40,3 @@ Sudoku is a logic-based number puzzle played on a **9×9 grid**, divided into ni
 - Each column must contain digits **1 to 9** without repetition.
 - Each 3×3 box must contain digits **1 to 9** without repetition.
 
----
-
-## 📁 Folder Structure
-
-📁 Project Structure
-
-├── index.html     # Main HTML file
-├── style.css      # All styles (light/dark themes, responsive grid)
-├── script.js      # Core logic (grid, solver, theme, navigation)
