@@ -2,7 +2,6 @@
 
 An interactive, web-based Sudoku solver that allows users to enter any valid Sudoku puzzle and solve it instantly using a **backtracking algorithm**. Built with **HTML, CSS, and JavaScript**, this project is a clean, modern, and responsive single-page app designed for ease of use.
 
----
 
 ## 🌟 Features
 
@@ -13,7 +12,6 @@ An interactive, web-based Sudoku solver that allows users to enter any valid Sud
 - 🌗 **Light/Dark Mode:** Toggle themes with memory across sessions
 - 🔁 **Smooth Navigation:** Switch between Home, About Creator, and About Sudoku pages
 
----
 
 
 ## 🛠️ Tech Stack
@@ -22,7 +20,6 @@ An interactive, web-based Sudoku solver that allows users to enter any valid Sud
 - **CSS3** – Styling and responsive design
 - **Vanilla JavaScript** – Grid generation, puzzle validation, solving logic, and UI interactivity
 
----
 
 ## 📚 How It Works
 
@@ -31,7 +28,6 @@ An interactive, web-based Sudoku solver that allows users to enter any valid Sud
 3. Click **"Solve"** to let the app compute and show the solution.
 4. Use **"Clear"** to reset, or **"Save"** to download the puzzle and solution as a `.json` file.
 
----
 
 ## 🧩 What is Sudoku?
 
